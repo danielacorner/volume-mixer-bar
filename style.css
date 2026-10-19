@@ -1,0 +1,19 @@
+:root { --bg: #f3f4f8; --fg: #1b1d26; --muted: #5d6273; --link: #0a7d8c; --button: #0a7d8c; }
+@media (prefers-color-scheme: dark) { :root { --bg: #12141b; --fg: #e8eaf1; --muted: #9aa0b2; --link: #4fd6e4; --button: #138c9b; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 16px 80px; }
+h1 { font-size: 34px; line-height: 1.15; margin: 8px 0 4px; }
+h2 { font-size: 21px; margin-top: 36px; }
+h3 { font-size: 17px; margin: 22px 0 4px; }
+.date, .back, .sub { color: var(--muted); }
+a { color: var(--link); }
+img { max-width: 100%; border-radius: 12px; }
+
+.support-form input, .support-form textarea { width: 100%; max-width: 32rem; font: inherit; padding: .5rem; border: 1px solid #c8ccd4; border-radius: 8px; box-sizing: border-box; }
+.support-form button { font: inherit; padding: .55rem 1.2rem; border: 0; border-radius: 8px; background: var(--button); color: #fff; cursor: pointer; }
+.support-form .hp { display: none; }
+
+.hero { text-align: center; margin: 1.5rem 0 1rem; }
+.hero .icon { border-radius: 22%; }
+.shots { display: grid; gap: 1rem; margin: 1.5rem 0; }
+.shots img { width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 18px rgba(0,0,0,.18); }
